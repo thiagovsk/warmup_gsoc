@@ -2,8 +2,6 @@
 
 Warm Up Tasks for the GSOC =D
 
-[![Build Status](https://travis-ci.org/thiagovsk/warmup_gsoc.svg?branch=master)](https://travis-ci.org/thiagovsk/warmup_gsoc)
-
 ## Installation
 
 Is very simple, if you rave ruby:
@@ -40,7 +38,7 @@ vagrant up
 
 ```
 bundle install
-rspec cookbooks/basics/spec/default_spec.rb  --color
+./run-tests.sh
 ```
 
 - See more in [ChefSpec Documentation](https://docs.chef.io/chefspec.html)

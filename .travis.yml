@@ -1,7 +1,7 @@
 language: ruby
 
 script:
-  - rspec cookbooks/basics/spec/default_spec.rb  --color
+  - ./run-tests.sh 
 
 rvm:
   - 2.2.1 
