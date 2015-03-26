@@ -2,6 +2,8 @@
 
 Warm Up Tasks for the GSOC =D
 
+[![Build Status](https://travis-ci.org/thiagovsk/warmup_gsoc.svg?branch=master)](https://travis-ci.org/thiagovsk/warmup_gsoc)
+
 ## Installation
 
 Is very simple, if you rave ruby:
