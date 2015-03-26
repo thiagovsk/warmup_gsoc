@@ -1,0 +1,15 @@
+language: ruby
+
+script:
+  - rspec cookbooks/basics/spec/default_spec.rb  --color
+
+rvm:
+  - 2.2.1 
+notifications:
+  email:
+    recipients:
+      - thiagitosouza@hotmail.com
+branches:
+  only:
+
+    - master
