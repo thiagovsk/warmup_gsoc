@@ -1,5 +1,5 @@
-require 'chefspec'
-ChefSpec::Coverage.start!
+require_relative 'spec_helper.rb'
+
 describe 'basics::default' do
   let(:chef_run) { ChefSpec::SoloRunner.converge(described_recipe) }
 
