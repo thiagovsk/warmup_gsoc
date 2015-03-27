@@ -1,5 +1,7 @@
 # warmup_gsoc
 
+[![Build Status](https://travis-ci.org/thiagovsk/warmup_gsoc.svg?branch=master)](https://travis-ci.org/thiagovsk/warmup_gsoc)
+
 Warm Up Tasks for the GSOC =D
 
 ## Clone
