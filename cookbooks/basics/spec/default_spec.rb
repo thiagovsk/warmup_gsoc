@@ -15,4 +15,8 @@ describe 'basics::default' do
     expect(chef_run).to install_package('bash-completion')
   end
 
+  it 'installs git' do
+    expect(chef_run).to install_package('git')
+  end
+
 end

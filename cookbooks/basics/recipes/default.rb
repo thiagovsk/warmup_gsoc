@@ -4,3 +4,5 @@ end
 
 package 'vim'
 package 'bash-completion'
+#package git for clone
+package 'git'
