@@ -21,6 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 8080, host: 8001 # APP
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -92,6 +93,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # chef.roles_path = "../my-recipes/roles"
     # chef.data_bags_path = "../my-recipes/data_bags"
      chef.add_recipe "basics::default"
+     chef.add_recipe "basics::nginx"
+     chef.add_recipe "basics::webapp"
     # chef.add_role "web"
     # You may also specify custom JSON attributes:
      chef.json = { mysql_password: "foo" }
