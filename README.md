@@ -2,15 +2,15 @@
 
 Warm Up Tasks for the GSOC =D
 
-## Installation
+## Clone
 
-Is very simple, if you rave ruby:
+Is very simple:
 
 ```
-gem install chef --no-ri --no-rdoc
+git clone https://github.com/thiagovsk/warmup_gsoc.git
 ```
 
-## With Vagrant
+## Run the webAPP With Vagrant
 
 Just Install Vagrant + Virtualbox
 
@@ -29,7 +29,14 @@ sudo apt-get install virtualbox
 - And
 
 ```
+cd warmup_gsoc
 vagrant up
+```
+
+- Now just can check in you browser
+
+```
+localhost:8001
 ```
 
 # Running tests
@@ -37,6 +44,7 @@ vagrant up
 - For running tests :
 
 ```
+cd warmup_gsoc
 bundle install
 ./run-tests.sh
 ```
