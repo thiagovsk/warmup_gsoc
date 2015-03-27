@@ -1,2 +1,2 @@
 #! /bin/bash
-rspec cookbooks/basics/spec/default_spec.rb  cookbooks/basics/spec/nginx_spec.rb  --color
+rspec cookbooks/basics/spec/*_spec.rb --color 
